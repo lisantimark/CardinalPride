@@ -1,0 +1,394 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body html {
+    font-family: 'Lato', sans-serif;
+    background: #b8b8b8;
+    margin: 0;
+    padding: 0;
+}
+
+/* --HEADER-- */
+header {
+    height: 80vh;
+    background: url("../imgs/logo-banner-2.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* --NAVBAR-- */
+
+.active-page{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,0.4);
+    border: transparent;
+    z-index: 11;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #CAB686;
+    background-color: transparent;
+}
+.navbar-nav > li > a {
+    line-height: 26px;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-brand {
+    padding: 17px 15px;
+}
+.navbar-brand img {
+    width: 150px;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+.shrink-nav {
+    color: #fff !important;
+    top: 0px;
+    background-color: #a6001d;
+}
+.shrink-nav .navbar-nav > li > a {
+    color: #fff ;
+    line-height: 30px;
+    font-size: 18px;
+}
+.shrink-nav .navbar-brand img {
+    width: 190px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+        line-height: 20px;
+    }
+    .navbar-brand {
+
+    }
+    .navbar-brand img {
+        width: 175px;
+    }
+}
+/* --NAVBAR-END--*/
+
+
+/* --BODY-- */
+
+.home-row-1{
+    font-weight: bold;
+    text-align:center;
+    border-top: 4px solid #cc7988;
+    padding: 30px;
+    transform: translateZ(0);
+}
+
+.home-row-1 p{
+    font-weight: normal;
+    font-size: 17px;
+
+}
+
+.home-row-1 h1{
+    font-size: 40px;
+}
+
+
+.home-row-2 {
+    font-weight: bold;
+    text-align:center;
+    padding: 30px;
+    background-color:#fff;
+}
+
+.home-row-2 .card {
+    padding-top: 20px;
+}
+
+.home-row-2 p{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.home-row-2 h4{
+    font-size: 24px;
+}
+
+.home-row-3 {
+    font-weight: bold;
+    text-align:center;
+    background-image: url("../imgs/hammer-nails.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.home-row-3 h1{
+    padding: 30px;
+    font-size: 30px;
+    color:#fff;
+}
+
+.home-row-3 h3{
+    font-size: 30px;
+    color:#fff;
+}
+
+.home-row-3 h4{
+    font-size: 12px;
+}
+
+.services-row-2{
+    font-weight: bold;
+    text-align:center;
+    padding: 30px;
+    background-color:#fff;
+}
+
+.services-row-2 .card {
+    padding-top: 20px;
+}
+
+.services-header {
+    font-weight: bold;
+    text-align:center;
+    background-image: url("../imgs/hammer-nails-2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+    height: 400px;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.services-row-3{
+    height: 300px;
+    text-align:center;
+    font-weight: bold;
+    text-align:center;
+    background-image: url("../imgs/hammer-nails-3.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+
+}
+
+
+.ncshape {
+    width: 320px;
+    height: auto;
+    position:relative;
+    top:-50px;
+}
+
+footer {
+    height: 150px;
+    background: #b8b8b8;
+    border-top: 6px solid #CAB686;
+    text-align: center;
+    text-decoration: none;
+
+}
+footer .container-fluid {
+    background: #b8b8b8;
+}
+
+.footer-social {
+    width:35px;
+    height:auto;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    position:relative;
+}
+
+h4{
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color:#fff;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:#000;
+
+}
+.fa {
+    width: 25px;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+/* --BODY-END-- */
+
+/* BUTTONS - */
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #000;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 0;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+    color: #000;
+    text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+    height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 15px;
+    color: #000;
+    font-size:14px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+a.animated-button.victoria-four {
+    border: 2px solid #cc7988;
+    width: 250px;
+}
+a.animated-button.victoria-four:after {
+    background: #cc7988;
+    opacity: .5;
+    -moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    -webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+    transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.victoria-four:hover:after {
+    opacity: 1;
+    height: 600% !important;
+}
+
+.hover-effect:hover {
+    background-color: #cc7988;
+}
+
+a.animated-button.thar-two {
+    width: 250px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: 2px solid #a6001d;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two:hover {
+    color: #fff;
+    background-color: #a6001d;
+}
+a.animated-button.thar-two:hover:before {
+    top: 0%;
+    bottom: auto;
+    height: 100%;
+}
+a.animated-button.thar-two:before {
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 0px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    color: #fff;
+    background: #a6001d;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
