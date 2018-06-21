@@ -12,139 +12,170 @@
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 
 <body>
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+<!-- navigation/header -->
+<nav class="navbar navbar-default">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="home2.html">
-                <img src="imgs/cardinalpride_text.png" alt="bird.Png" class="navbarlogo">
+                <img src="imgs/cardinalpride_text.png" alt="logo">
             </a>
         </div>
-        <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="home2.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li class="active"><a href="about.html">About</a></li>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="home.html">Home</a></li>
+                <li class="active-page"><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-    </div>
-</nav>
+    </div>     <!-- /.container-fluid -->
+</nav>    <!-- /navigation -->
 
-<!-- Header with Background Image -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
-  <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="imgs/reviewslides_1.png" alt="Slide1">
-        </div>
-
-        <div class="item">
-            <img src="imgs/reviewslides_2.png" alt="Slide2">
-        </div>
-
-        <div class="item">
-            <img src="imgs/reviewslides_3.png" alt="Slide3">
-        </div>
+<div class="row about-header">
+    <div class="col-sm-12">
+        <h></h></h1>
     </div>
 </div>
 
 <!-- Page Content -->
 <div class="container-fluid">
-
-    <div class="row first-row">
-        <div class="container">
-        <div class="col-sm-6">
-            <h6>Trust</h6>
-            <p5>Full handyman service - We do it all<br>
-                Creating long lasting relationships<br>
-                Employ only experienced and qualified professionals<br>
-                Servicing Wilmington, NC and surrounding areas
-            </p5>
-        </div>
-        <div class="col-sm-6">
-            <img class="card-img-top center-block" src="imgs/handshake.svg" width= "330"alt="handshake">
-        </div>
-    </div>
-    </div>
-
-
-    <div class="row second-row">
-        <div class="container">
-            <div class="col-sm-6">
-                <img class="card-img-top" src="imgs/lowcost.svg" width= "330"alt="lowcost">
-            </div>
-            <div class="col-sm-6">
-                <h6>Save</h6>
-                <p5>Save money on expensive specialists<br>
-                    We work efficiently and take care of all your needs<br>
-                    Providing you the highest quality handyman service available<br>
-                    Getting the job done right the first time<br>
-                    The most affordable price
-                </p5>
-            </div>
-
-    </div>
-    </div>
-
-    <div class="row third-row">
-        <div class="col-sm-12">
+    <div class="row about-row-1">
+        <div class="col-lg-12">
             <div class="container">
-            <div class = "text">
-                <p class="card-text ">
-                    <br>
-                    <img src="imgs/meettheowner.png" alt="text" class="img-fluid owner-text" style="width:330px; height:auto">
+                <h1>
+                    We will exceed your expectations at the most affordable price.
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="row about-row-2">
+        <div class="container">
+            <div class="col-sm-6">
+                <img class="card-img-top center-block" src="imgs/handshake.svg" width= "250"alt="handshake">
+            </div>
+        <div class="col-sm-6 test">
+            <h1>Trust</h1>
+            <p>Full handyman service - We do it all.
+                Creating long lasting relationships.
+                Employ only experienced and qualified professionals.
+                Servicing Wilmington, NC and surrounding areas.
+            </p>
+            <a href="about.html" class="btn btn-sm animated-button victoria-four hover-effect">Meet the Owner</a>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="row about-row-2">
+        <div class="container">
+            <div class="col-sm-6">
+                <img class="card-img-top" src="imgs/lowcost.svg" width= "250"alt="lowcost">
+            </div>
+            <div class="col-sm-6">
+                <h1>Save</h1>
+                <p>Save money on expensive specialists.
+                    We work efficiently and take care of all your needs.
+                    Providing you the highest quality handyman service available.
+                    Getting the job done right the first time.
+                    The most affordable price
                 </p>
-                <p7>Logan Furlough is a North Carolina native through and through. As a Wilmington resident, Logan enjoys spending time at the beach or catching a
+                <a href="services.html" class="btn btn-sm animated-button victoria-four hover-effect">Explore Services</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row about-row-3" style="background-color: #b8b8b8;">
+        <div class="container">
+            <div class="col-sm-6">
+                <h1>
+                    <img src="imgs/meettheowner.png" alt="text" class="img-fluid owner-text" style="width:330px; height:auto">
+                </h1>
+                <p>Logan Furlough is a North Carolina native through and through. As a Wilmington resident, Logan enjoys spending time at the beach or catching a
                     live show around town. Southern hospitality is prevalent in how Logan conducts his business, with going
                     above and beyond to make sure the customer is satisfied with the completed job and with
                     guaranteeing his work with a handshake. Logan will do what it takes to earn your business and to make sure the job gets done right the first time.
-                </p7>
-
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <img class="card-img-top headshot" src="imgs/headshot.png" width= "250"alt="headshot">
             </div>
         </div>
-            <img src="imgs/headshot.png" alt="head-shot" class="img-fluid" style="width:330px; height:auto">
+    </div>
+
+
+
+
+    <div class="row about-row-4">
+        <img src="imgs/testimonials.png" alt="Text">
+        <div class="img-row">
+        <div class="column">
+            <img src="imgs/reviewslides_6.png" style="width:100%" class="review-img">
+            <img src="imgs/reviewslides_5.png" style="width:100%" class="review-img">
+        </div>
+        <div class="column">
+            <img src="imgs/reviewslides_1.png" style="width:100%" class="review-img">
+            <img src="imgs/reviewslides_2.png" style="width:100%" class="review-img">
+
+        </div>
+        <div class="column">
+            <img src="imgs/reviewslides_3.png" style="width:100%" class="review-img">
+            <img src="imgs/reviewslides_4.png" style="width:100%" class="review-img">
+        </div>
+        <div class="column">
+            <img src="imgs/reviewslides_7.png" style="width:100%" class="review-img">
+            <img src="imgs/reviewslides_8.png" style="width:100%" class="review-img">
         </div>
     </div>
-    <!-- /.row -->
 
-</div>
+
+        <!-- /.row -->
+    </div>
 <!-- /.container -->
+</div>
 
-<!-- Footer -->
-<footer >
-    <div class="container">
-
-        <h5>
+<footer>
+    <img src="imgs/ncshape.svg" alt="ncshape" class="ncshape">
+    <div class="container-fluid">
+        <div class="col-sm-12">
+            <a class="footer-brand" href="home.html">
+                <img src="imgs/logo-solo.png" alt="logo">
+            </a>
             <a href="https://www.facebook.com/Cardinalpridepropertycare/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/cardinalprideproperty" class="fa fa-instagram"></a>
             <a href="https://plus.google.com/u/0/113586826354055068664" class="fa fa-google"></a>
-        </h5>
+            <h4><span class="glyphicon glyphicon-earphone"></span>910-547-7010 </h4>
+            <h4><span class="glyphicon glyphicon-envelope"></span>cardinalpridepropety@gmail.com </h4>
+            <br>
+            <h4><a href="services.html" style="text-decoration: none; color:#000;">Services</a></h4>
+            <h4><a href="about.html" style="text-decoration: none; color:#000;">About Us</a></h4>
+            <h4><a href="contact.html" style="text-decoration: none; color:#000;">Contact</a></h4>
+            <br>
 
-        <h5>Copyright &copy; Cardinal Pride 2018</h5>
+            <div styles="padding: 50px; background-color: #000">
+                Copyright &copy; Cardinal Pride LLC 2018
+            </div>
+        </div>
     </div>
     <!-- /.container -->
 </footer>
-<!-- /.Footer-->
-
-
 
 </body>
-
 </html>

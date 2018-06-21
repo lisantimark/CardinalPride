@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="cardinal pride property care wilmington handy man">
+    <meta name="description" content="cardinal pride property care wilmington handy man home contact
+        we do it all cheap affordable care services provided interior exterior kitchen odd jobs">
     <meta name="author" content="">
-    <title>Cardinal Pride - Property Care</title>
-    <!-- Bootstrap core CSS -->
+
+    <title>Cardinal Pride Property Care - Services</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
+
     <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
 </head>
 
 
@@ -36,7 +38,6 @@
                 <img src="imgs/cardinalpride_text.png" alt="logo">
             </a>
         </div>
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="home.html">Home</a></li>
@@ -47,6 +48,8 @@
         </div>
     </div>     <!-- /.container-fluid -->
 </nav>    <!-- /navigation -->
+
+
 <div class="row services-header">
     <div class="col-sm-12">
         <h1>
@@ -79,7 +82,7 @@
                 <div class="card">
                     <img class="card-img-top" src="imgs/outside.svg" width= "200" alt="">
                     <div class="card-footer styles=" styles="width: 150px;">
-                        <a href="services.html" class="btn btn-sm animated-button victoria-four hover-effect">Exterior</a>
+                        <button onclick="runModal(1);"><a href="#" onClick="return false;" class="btn btn-sm animated-button victoria-four hover-effect">Exterior</a></button>
                     </div>
                 </div>
             </div>
@@ -87,7 +90,7 @@
                 <div class="card">
                     <img class="card-img-top" src="imgs/lamp.svg" width= "200" alt="">
                     <div class="card-footer">
-                        <a href="services.html" class="btn btn-sm animated-button victoria-four hover-effect ">Interior</a>
+                        <button onclick="runModal(2);"><a href="#" onClick="return false;" class="btn btn-sm animated-button victoria-four hover-effect ">Interior</a></button>
                     </div>
                 </div>
             </div>
@@ -95,7 +98,7 @@
                 <div class="card">
                     <img class="card-img-top" src="imgs/sink.svg" width= "200" alt="">
                     <div class="card-footer">
-                        <a href="services.html" class="btn btn-sm animated-button victoria-four hover-effect ">Kitchen & Bath</a>
+                        <button onclick="runModal(3);"><a href="#" onClick="return false;" class="btn btn-sm animated-button victoria-four hover-effect ">Kitchen & Bath</a></button>
                     </div>
                 </div>
             </div>
@@ -103,85 +106,188 @@
                 <div class="card">
                     <img class="card-img-top" src="imgs/questionmark.svg" width= "200" alt="">
                     <div class="card-footer">
-                        <a href="services.html" class="btn btn-sm animated-button victoria-four hover-effect ">Odd Jobs</a>
+                        <button onclick="runModal(4);"><a href="#" onClick="return false;" class="btn btn-sm animated-button victoria-four hover-effect ">Odd Jobs</a></button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="exterior-modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <h1>Exterior</h1>
+                    <li>Rot repair
+                    <li>Water damage repair
+                    <li>Soffits and fascia repair
+                    <li>Gutter cleaning and repair
+                    <li>Siding repair
+                    <li>Roof and flashing repair
+                    <li>Deck repair
+                    <li>Fence repair
+                    <li>Pressure washing
+                    <li>Windows hung or repaired
+                    <li>Doors hung or repaired
+                    <li>Lock sets
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+
+            <div id="interior-modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <h1>Interior</h1>
+                    <li>Trim carpentry
+                    <li>Drywall / sheetrock repair
+                    <li>Crown and base molding
+                    <li>Chair rails, wainscotting
+                    <li>Columns installed
+                    <li>Doors hung or repaired
+                    <li>Door knobs and hinges replaced
+                    <li>Windows installed or repaired
+                    <li>Weather stripping
+                    <li>Ceiling fans installed
+                    <li>Light fixtures installed
+                    <li>Switches replaced
+                    <li>Air filters replaced
+                    <li>Water filters replaced
+                    <li>dd or remove shelving
+                    <li>Closet doors hung or adjusted
+                    <li>Closet organizers installed
+                    <li>Hand rails repaired or installed
+                    <li>Blinds installed
+                    <li>Curtain rods installed
+                    <li>Mirror hanging
+                    <li>Picture hanging
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+
+            <div id="kitchen-bath-modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <h1>Kitchen & Bath</h1>
+                <li>Wall tile installed
+                <li>Floor tile installed
+                <li>Grout repair
+                <li>Caulking
+                <li>Shower doors installed
+                <li>Faucets installed
+                <li>Bath accessories hung
+                <li>Disposals installed
+                <li>Appliances installed
+                <li>Counter tops installed
+                <li>Backs plashes installed
+                <li>Cabinets installed
+                <li>Hardware replaced
+                <li>Vent fans installed
+                <li>Toilets installed
+                <li>Sinks installed
+                <li>Tubs and showers installed
+                <span class="close">&times;</span>
+            </div>
+        </div>
+
+            <div id="oddjobs-modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <h1>Odd Jobs</h1>
+                    <li>Painting
+                    <li>Masonry
+                    <li>Doorbells installed
+                    <li>Pet doors installed
+                    <li>Mailboxes installed
+                    <li>Doghouses installed
+                    <li>Bird houses installed
+                    <li>Swing sets assembled
+                    <li>Storage sheds assembled
+                    <li>Furniture assembled
+                    <li>Home sale prep
+                    <li>Inspection repairs
+                    <li>Furniture and box moving
+                    <li>Senior and infant safety installs
+                    <li>Yard work
+                    <li>Debris removal
+                    <li>Troubleshooting
+                    <span class="close">&times;</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="row services-row-3">
+
+        <div class="col-sm-12">
+            <img src="imgs/recent-work.png" alt="Text">
+        </div>
+        <div class="col-sm-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="imgs/slide-1.png" alt="Portfolio 1">
+                    </div>
+
+                    <div class="item">
+                        <img src="imgs/slide-2.png" alt="Portfolio 2">
+                    </div>
+
+                    <div class="item">
+                        <img src="imgs/slide-3.png" alt="Portfolio 3">
+                    </div>
+
+                    <div class="item">
+                        <img src="imgs/slide-4.png" alt="Portfolio 4">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="row services-row-3">
-
-            <div class="col-sm-12">
-
-            </div>
-            <div class="col-sm-12">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="imgs/reviewslides_1.png" alt="Review 1">
-                        </div>
-
-                        <div class="item">
-                            <img src="imgs/reviewslides_2.png" alt="Review 2">
-                        </div>
-
-                        <div class="item">
-                            <img src="imgs/reviewslides_3.png" alt="Review 3">
-                        </div>
-
-                        <div class="item">
-                            <img src="imgs/reviewslides_4.png" alt="Review 4">
-                        </div>
-
-                        <div class="item">
-                            <img src="imgs/reviewslides_5.png" alt="Review 5">
-                        </div>
-                    </div>
-            </div>
-        </div>
 
     </div>
 
 
+
+
+    </div>
     <!-- /.container-fluid -->
 </div>
-
-
 
 <footer>
     <img src="imgs/ncshape.svg" alt="ncshape" class="ncshape">
     <div class="container-fluid">
         <div class="col-sm-12">
+            <a class="footer-brand" href="home.html">
+                <img src="imgs/logo-solo.png" alt="logo">
+            </a>
             <a href="https://www.facebook.com/Cardinalpridepropertycare/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/cardinalprideproperty" class="fa fa-instagram"></a>
             <a href="https://plus.google.com/u/0/113586826354055068664" class="fa fa-google"></a>
             <h4><span class="glyphicon glyphicon-earphone"></span>910-547-7010 </h4>
-            <h4 style="font-size:10px;"><span class="glyphicon glyphicon-envelope"></span>Cardinalprideproperty@gmail.com</h4>
-            <h4><a href="services.html">Services</a></h4>
-            <h4><a href="about.html">About Us</a></h4>
-            <h4><a href="contact.html">Contact</a></h4>
-            <h5>Copyright &copy; Cardinal Pride LLC 2018</h5>
+            <h4><span class="glyphicon glyphicon-envelope"></span>cardinalpridepropety@gmail.com </h4>
+            <br>
+            <h4><a href="services.html" style="text-decoration: none; color:#000;">Services</a></h4>
+            <h4><a href="about.html" style="text-decoration: none; color:#000;">About Us</a></h4>
+            <h4><a href="contact.html" style="text-decoration: none; color:#000;">Contact</a></h4>
+            <br>
+
+            <div styles="padding: 50px; background-color: #000">
+                Copyright &copy; Cardinal Pride LLC 2018
+            </div>
         </div>
     </div>
     <!-- /.container -->
 </footer>
 
-
-
-
-
-
 </body>
-
 </html>

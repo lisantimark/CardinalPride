@@ -24,3 +24,34 @@ $(document).ready(function(){
     });
 });
 
+function runModal(option) {
+    if (option == 1){
+        var modal = document.getElementById('exterior-modal');
+        var span = document.getElementsByClassName("close")[0];
+    }
+
+    if (option == 2){
+        var modal = document.getElementById('interior-modal');
+        var span = document.getElementsByClassName("close")[1];
+    }
+
+    if (option == 3){
+        var modal = document.getElementById('kitchen-bath-modal');
+        var span = document.getElementsByClassName("close")[2];
+    }
+
+    if (option == 4){
+        var modal = document.getElementById('oddjobs-modal');
+        var span = document.getElementsByClassName("close")[3];
+    }
+
+    modal.style.display = "block";
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
