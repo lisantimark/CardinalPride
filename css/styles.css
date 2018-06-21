@@ -350,6 +350,20 @@ header {
     }
 }
 
+.contact-header {
+    font-weight: bold;
+    text-align:center;
+    background-image: url("../imgs/hammer-nails-6.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 60px;
+    height: 60vh;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+}
 .ncshape {
     width: 320px;
     height: auto;
