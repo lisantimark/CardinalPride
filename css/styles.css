@@ -11,16 +11,6 @@ body html {
     overflow-x: hidden;
 }
 
-/* --HEADER-- */
-header {
-    height: 80vh;
-    background: url("../imgs/logo-banner-2.png");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    vertical-align: top;
-}
-
 .bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -29,8 +19,37 @@ header {
     -o-background-size: cover;
 }
 
-/* --NAVBAR-- */
 
+.home-header {
+    background-image: url("../imgs/logo-banner-2.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 60px;
+    height: 80vh;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+    border-bottom: 4px solid #cc7988;
+}
+
+.about-header {
+    background-image: url("../imgs/hammer-nails-4.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 60px;
+    height: 60vh;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+    border-bottom: 4px solid #cc7988;
+}
+
+
+/* --NAVBAR-- */
 .active-page{
     background-color: rgba(0,0,0,0.4);
 }
@@ -109,51 +128,29 @@ header {
 
 
 /* --BODY-- */
-
 .center {
     text-align:center;
 }
-.card {
-    width: 100%;
-}
 
-.home-row-1{
+h1 {
+    font-size: 40px;
     font-weight: bold;
-    text-align:center;
-    border-top: 4px solid #cc7988;
-    padding: 30px;
-    transform: translateZ(0);
 }
 
-.home-row-1 p{
+p {
     font-weight: normal;
     font-size: 17px;
-
-}
-
-.home-row-1 h1{
-    font-size: 40px;
 }
 
 
-.home-row-2 {
-    font-weight: bold;
-    text-align:center;
-    padding: 30px;
-    background-color:#fff;
-}
-
-.home-row-2 .card {
-    padding-top: 20px;
-}
-
-.home-row-2 p{
+p2 {
     font-weight: normal;
     font-size: 14px;
 }
 
-.home-row-2 h4{
-    font-size: 24px;
+.responsive-img {
+    max-width: 100%;
+    height: auto;
 }
 
 .home-row-3 {
@@ -166,23 +163,17 @@ header {
     background-size: cover;
     margin-top: 20px;
     padding-bottom: 60px;
-
 }
-
 .home-row-3 h1{
     padding: 30px;
     font-size: 30px;
     color:#fff;
 }
-
 .home-row-3 h3{
     font-size: 30px;
     color:#fff;
 }
 
-.home-row-3 h4{
-    font-size: 12px;
-}
 
 .services-row-2{
     font-weight: bold;
@@ -263,49 +254,6 @@ header {
     cursor: pointer;
 }
 
-.about-header {
-    font-weight: bold;
-    text-align:center;
-    background-image: url("../imgs/hammer-nails-4.png");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    vertical-align: top;
-    padding-bottom: 60px;
-    height: 60vh;
-    width:100%;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.about-row-1 {
-    font-weight: bold;
-    text-align:center;
-    border-top: 4px solid #cc7988;
-    padding: 30px;
-    transform: translateZ(0);
-}
-
-.about-row-2 {
-
-    text-align:center;
-    padding: 30px;
-    transform: translateZ(0);
-}
-
-.about-row-3 {
-    text-align:center;
-    border-top: 4px solid #cc7988;
-    padding: 30px;
-    transform: translateZ(0);
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.headshot{
-    background-color:#fff;
-    border-radius: 50%;
-}
 
 .about-row-4{
     font-weight: bold;
@@ -317,6 +265,7 @@ header {
     background-size: cover;
     padding-bottom: 100px;
 }
+
 .img-row {
     display: -ms-flexbox;
     display: flex;

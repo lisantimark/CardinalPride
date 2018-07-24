@@ -33,6 +33,10 @@ h1{
     width: 200px;
 }
 
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
