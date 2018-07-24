@@ -11,15 +11,6 @@ body html {
     overflow-x: hidden;
 }
 
-.bg-image-full {
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-
 .home-header {
     background-image: url("../imgs/logo-banner-2.png");
     background-size: cover;
@@ -45,6 +36,7 @@ body html {
     width:100%;
     margin-right: 0;
     margin-left: 0;
+    border-bottom: 4px solid #cc7988;
 }
 
 .about-header {
@@ -248,6 +240,31 @@ p2 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1100px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .modal-content{
+        width: 100%;
+    }
+    .modal{
+        width:100%;
+    }
+    .modal-content h1{
+        font-size:20px;
+    }
+}
+
 .about-row-4{
     font-weight: bold;
     text-align:center;
@@ -443,28 +460,3 @@ a.animated-button.thar-two:before {
     transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
-@media screen and (max-width: 1100px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-    .modal-content{
-        width: 100%;
-    }
-    .modal{
-        width:100%;
-    }
-    .modal-content h1{
-        font-size:20px;
-    }
-}
