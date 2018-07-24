@@ -34,6 +34,19 @@ body html {
     border-bottom: 4px solid #cc7988;
 }
 
+.services-header {
+    background-image: url("../imgs/hammer-nails-2.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 60px;
+    height: 60vh;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .about-header {
     background-image: url("../imgs/hammer-nails-4.png");
     background-size: cover;
@@ -48,6 +61,18 @@ body html {
     border-bottom: 4px solid #cc7988;
 }
 
+.contact-header {
+    background-image: url("../imgs/hammer-nails-6.png");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 60px;
+    height: 60vh;
+    width:100%;
+    margin-right: 0;
+    margin-left: 0;
+}
 
 /* --NAVBAR-- */
 .active-page{
@@ -118,7 +143,6 @@ body html {
         width: 175px;
     }
 }
-
 @media (max-width: 320px) {
     .navbar-default{
         width: 320px;
@@ -174,37 +198,7 @@ p2 {
     color:#fff;
 }
 
-
-.services-row-2{
-    font-weight: bold;
-    text-align:center;
-    padding: 30px;
-    background-color:#fff;
-    padding-bottom: 80px;
-}
-
-.services-row-2 .card {
-    padding-top: 20px;
-}
-
-.services-header {
-    font-weight: bold;
-    text-align:center;
-    background-image: url("../imgs/hammer-nails-2.png");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    vertical-align: top;
-    padding-bottom: 60px;
-    height: 60vh;
-    width:100%;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-
 .services-row-3{
-    height: 80vh;
     text-align:center;
     font-weight: bold;
     text-align:center;
@@ -254,7 +248,6 @@ p2 {
     cursor: pointer;
 }
 
-
 .about-row-4{
     font-weight: bold;
     text-align:center;
@@ -274,7 +267,6 @@ p2 {
     padding-top: 70px;
 }
 
-
 .column {
     -ms-flex: 50%; /* IE10 */
     flex: 25%;
@@ -287,43 +279,12 @@ p2 {
     vertical-align: middle;
 }
 
-.contact-header {
-    font-weight: bold;
-    text-align:center;
-    background-image: url("../imgs/hammer-nails-6.png");
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-    vertical-align: top;
-    padding-bottom: 60px;
-    height: 60vh;
-    width:100%;
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.contact-row {
-    padding: 100px;
-}
-
-
-.contact-row-1{
-    padding-top:200px;
-    font-weight: bold;
-    text-align:center;
-    padding: 30px;
-    background-color:#fff;
-}
-
-
-
 .ncshape {
     width: 320px;
     height: auto;
     position:relative;
     top:-50px;
 }
-
 
 footer {
     height: 150px;
