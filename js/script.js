@@ -24,10 +24,6 @@ $(document).ready(function(){
     });
 });
 
-$(function() {
-    $('body').removeClass('fade-out');
-});
-
 function runModal(option) {
     if (option == 1){
         var modal = document.getElementById('exterior-modal');
