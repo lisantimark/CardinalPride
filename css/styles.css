@@ -468,3 +468,9 @@ a.animated-button.thar-two:before {
         font-size:20px;
     }
 }
+
+.loader{
+    width: 150px;
+    height: auto;
+    margin: 200px;
+}
