@@ -21,7 +21,7 @@ body.fade-out {
 }
 
 .home-header {
-    background-image: url("../imgs/logo-banner-2.png");
+    background-image: url("../imgs/logo-banner-2.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -35,7 +35,7 @@ body.fade-out {
 }
 
 .services-header {
-    background-image: url("../imgs/hammer-nails-2.png");
+    background-image: url("../imgs/hammer-nails-2.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -49,7 +49,7 @@ body.fade-out {
 }
 
 .about-header {
-    background-image: url("../imgs/hammer-nails-4.png");
+    background-image: url("../imgs/hammer-nails-4.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -63,7 +63,7 @@ body.fade-out {
 }
 
 .contact-header {
-    background-image: url("../imgs/hammer-nails-6.png");
+    background-image: url("../imgs/hammer-nails-6.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -181,7 +181,7 @@ p2 {
 .home-row-3 {
     font-weight: bold;
     text-align:center;
-    background-image: url("../imgs/hammer-nails.png");
+    background-image: url("../imgs/hammer-nails.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ p2 {
     text-align:center;
     font-weight: bold;
     text-align:center;
-    background-image: url("../imgs/hammer-nails-5.png");
+    background-image: url("../imgs/hammer-nails-5.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@ p2 {
 .about-row-4{
     font-weight: bold;
     text-align:center;
-    background-image: url("../imgs/hammer-nails.png");
+    background-image: url("../imgs/hammer-nails.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
