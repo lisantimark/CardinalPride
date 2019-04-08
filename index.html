@@ -20,8 +20,13 @@
     <script src="js/script.js"></script>
 </head>
 
-<body>
-<!--Navigation bar-->
+<body onload="loadPage()" style="margin:0;">
+<!--Loader-->
+<div class="flying-bird" id="loader"></div>
+
+
+<div id="content" style="display:none;">
+    <!--Navigation bar-->
 <div id="nav-placeholder"></div>
 <script>
     $(function(){
@@ -29,7 +34,6 @@
     });
 </script>
 <!--end of Navigation bar-->
-
 <div class="row home-header">
     <div class="col-sm-12">
         <h></h>
@@ -106,6 +110,7 @@
         $("#footer-placeholder").load("footer.html");
     });
 </script>
+</div>
 <!--end of Footer -->
 </body>
 </html>

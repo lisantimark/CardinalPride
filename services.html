@@ -22,7 +22,12 @@
 </head>
 
 
-<body>
+<body onload="loadPage()" style="margin:0;">
+<!--Loader-->
+<div class="flying-bird" id="loader"></div>
+
+
+<div id="content" style="display:none;">
 <div id="nav-placeholder"></div>
 <script>
     $(function(){
@@ -83,6 +88,7 @@
             <div id="exterior-modal" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content center">
+                    <span class="close">&times;</span>
                     <h1>Exterior</h1>
                     <li>Rot repair
                     <li>Water damage repair
@@ -96,13 +102,13 @@
                     <li>Windows hung or repaired
                     <li>Doors hung or repaired
                     <li>Lock sets
-                    <span class="close">&times;</span>
                 </div>
             </div>
 
             <div id="interior-modal" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content center">
+                    <span class="close">&times;</span>
                     <h1>Interior</h1>
                     <li>Trim carpentry
                     <li>Drywall / sheetrock repair
@@ -126,13 +132,13 @@
                     <li>Curtain rods installed
                     <li>Mirror hanging
                     <li>Picture hanging
-                    <span class="close">&times;</span>
                 </div>
             </div>
 
             <div id="kitchen-bath-modal" class="modal">
             <!-- Modal content -->
             <div class="modal-content center">
+                <span class="close">&times;</span>
                 <h1>Kitchen & Bath</h1>
                 <li>Wall tile installed
                 <li>Floor tile installed
@@ -151,13 +157,13 @@
                 <li>Toilets installed
                 <li>Sinks installed
                 <li>Tubs and showers installed
-                <span class="close">&times;</span>
             </div>
         </div>
 
             <div id="oddjobs-modal" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content center">
+                    <span class="close">&times;</span>
                     <h1>Odd Jobs</h1>
                     <li>Painting
                     <li>Masonry
@@ -176,14 +182,14 @@
                     <li>Yard work
                     <li>Debris removal
                     <li>Troubleshooting
-                    <span class="close">&times;</span>
+
                 </div>
             </div>
 
 
         </div>
     </div>
-</div>
+
 
 <div class="container-fluid">
     <div class="row services-row-3">
@@ -233,6 +239,6 @@
     });
 </script>
 <!--end of Footer -->
-
+</div>
 </body>
 </html>

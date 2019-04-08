@@ -56,3 +56,12 @@ function runModal(option) {
     }
 }
 
+function loadPage() {
+    test = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+}
+

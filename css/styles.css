@@ -469,8 +469,50 @@ a.animated-button.thar-two:before {
     }
 }
 
-.loader{
-    width: 150px;
-    height: auto;
-    margin: 200px;
+/* LOADING ANIMATION STUFF */
+.flying-bird {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: url('../imgs/smallerspritesheet.png') left center;
+    animation: play .5s steps(10) infinite;
+}
+@keyframes play {
+    100% { background-position: -1000px; }
+}
+
+#content {
+    position: relative;
+    -webkit-animation-name: animatecontent;
+    -webkit-animation-duration: 1s;
+    animation-name: animatecontent;
+    animation-duration: 1s;
+    -moz-animation-name: animatecontent;
+    -moz-animation-duration: 1s;
+    -o-name: animatecontent;
+    -o-duration: 1s;
+}
+
+@-webkit-keyframes animatecontent {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatecontent {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+
+@-moz-keyframes animatecontent {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@-o-keyframes animatecontent {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
 }
