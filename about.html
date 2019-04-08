@@ -20,7 +20,11 @@
 </head>
 
 
-<body>
+<body onload="loadPage()" style="margin:0;">
+<!--Loader-->
+<div class="flying-bird" id="loader"></div>
+
+<div id="content" style="display:none;">
 <div id="nav-placeholder"></div>
 <script>
     $(function(){
@@ -143,6 +147,6 @@
     });
 </script>
 <!--end of Footer -->
-
+</div>
 </body>
 </html>
