@@ -510,21 +510,55 @@ a.animated-button.thar-two:before {
 }
 
 @-webkit-keyframes animatecontent {
-    from { bottom:-100px; opacity:0 }
-    to { bottom:0px; opacity:1 }
+    from { bottom:-100px;
+        opacity:0
+    }
+    to { bottom:0px;
+        opacity:1
+    }
 }
 
 @keyframes animatecontent {
-    from{ bottom:-100px; opacity:0 }
-    to{ bottom:0; opacity:1 }
+    from{
+        bottom:-100px;
+        opacity:0
+    }
+    to{ bottom:0;
+        opacity:1
+    }
 }
 
 @-moz-keyframes animatecontent {
-    from { bottom:-100px; opacity:0 }
-    to { bottom:0px; opacity:1 }
+    from { bottom:-100px;
+        opacity:0
+    }
+    to { bottom:0px;
+        opacity:1
+    }
 }
 
 @-o-keyframes animatecontent {
-    from{ bottom:-100px; opacity:0 }
-    to{ bottom:0; opacity:1 }
+    from{ bottom:-100px;
+        opacity:0
+    }
+    to{ bottom:0;
+        opacity:1
+    }
+}
+
+/* CUSTOM SCROLL BAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
