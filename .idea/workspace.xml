@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9d4dfb4-584a-4d94-9170-e9829c9719dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,8 +77,8 @@
       <file leaf-file-name="services.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="216" column="69" lean-forward="true" selection-start-line="216" selection-start-column="69" selection-end-line="216" selection-end-column="69" />
+            <state relative-caret-position="204">
+              <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -297,7 +296,7 @@
       <workItem from="1554327345004" duration="1049000" />
       <workItem from="1554426311119" duration="3584000" />
       <workItem from="1554499575907" duration="3690000" />
-      <workItem from="1554567951053" duration="12898000" />
+      <workItem from="1554567951053" duration="13798000" />
     </task>
     <task id="LOCAL-00001" summary="Test extension change">
       <created>1554426537706</created>
@@ -404,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554759008614</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Re-added old slides">
+      <created>1554759903669</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1554759903669</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218932000" />
+    <option name="totallyTimeSpent" value="219832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,7 +478,8 @@
     <MESSAGE value="Another image conversion" />
     <MESSAGE value="New testimonials -- Even sizes and spacing, zoom animation on over to 1.2 scale" />
     <MESSAGE value="Basic webkit scrollbar change -- look into later" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic webkit scrollbar change -- look into later" />
+    <MESSAGE value="Re-added old slides" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-added old slides" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -748,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="216" column="69" lean-forward="true" selection-start-line="216" selection-start-column="69" selection-end-line="216" selection-end-column="69" />
+        <state relative-caret-position="204">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding />
         </state>
       </provider>
